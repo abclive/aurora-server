@@ -1,0 +1,25 @@
+{
+  "name": "aurora-server",
+  "version": "1.0.0",
+  "description": "Aurora game multiplayer server",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abclive/aurora-server.git"
+  },
+  "author": "abclive",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abclive/aurora-server/issues"
+  },
+  "homepage": "https://github.com/abclive/aurora-server#readme",
+  "dependencies": {
+    "bufferutil": "^1.2.1",
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5",
+    "utf-8-validate": "^1.2.1"
+  }
+}
